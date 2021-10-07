@@ -1,0 +1,187 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="&lt;h2 id=&#34;数量限定词&#34;&gt;&lt;a href=&#34;#数量限定词&#34; class=&#34;headerlink&#34; title=&#34;数量限定词&#34;&gt;&lt;/a&gt;数量限定词&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;a few/little 表肯定 相当于some&lt;/li&gt;
+&lt;li&gt;few/little 表否定 几乎没有&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;固定搭配：&lt;/p&gt;
+&lt;p&gt;only a few/little&lt;/p&gt;
+&lt;p&gt;very f">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+  <title>Adjective——Note of New Perspective Grammer | Run-Session</title>
+
+  <link rel="stylesheet" id="chosen-theme" href="https://rawgit.com/fiatjaf/classless/master/themes/plain/theme.css">
+  <script>
+let link = document.getElementById('chosen-theme')
+let widget = document.createElement('div')
+widget.style.position = 'absolute'
+widget.style.right = '5px'
+widget.style.top = '2px'
+widget.style.background = 'beige'
+widget.style.color = '#444'
+widget.style.zIndex = 99
+widget.style.padding = '4px 8px'
+widget.innerHTML = `
+<label>
+  <p>No theme was set on <code>theme_config</code>.<br>
+     Choose a theme from the list to experiment with it:</p>
+  <select></select>
+</label>
+`
+fetch('https://api.github.com/repos/fiatjaf/classless/contents/themes')
+  .then(r => r.json())
+  .then(files => {
+    document.body.appendChild(widget)
+    let select = document.querySelector('select')
+    files
+      .filter(f => f.type === 'dir')
+      .forEach(f => {
+        let option = document.createElement('option')
+        option.value = f.name
+        option.innerHTML = f.name
+        select.appendChild(option)
+      })
+    let options = Array.from(select.querySelectorAll('option'))
+    let chosen = options[parseInt(Math.random() * options.length)]
+    chosen.selected = true
+    link.href = link.href.replace(/themes\/[^\/]+/, `themes/${chosen.value}`)
+    select.addEventListener('change', e => {
+      let chosen = e.target.value
+      link.href = link.href.replace(/themes\/[^\/]+/, `themes/${chosen}`)
+    })
+  })
+  .catch(console.log)
+  </script>
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <header role="banner">
+      <a href="/">
+        
+          <img src="https://picsum.photos/640/480">
+        
+      </a>  
+    <h1>
+      <a href="/">Run-Session</a>
+    </h1>
+    <aside>
+      <p></p>
+    </aside>
+  </header>
+  
+  <main>
+    <article>
+  <header>
+  
+  <h1><a href="http://example.com/2021/10/07/Adjective%E2%80%94%E2%80%94Note-of-New-Perspective-Grammer/">Adjective——Note of New Perspective Grammer</a></h1>
+  <aside>
+    
+    <time datetime="212021-10-07">
+      October 7th 2021
+    </time>
+    
+    <ul>
+    
+      <li><a href="/tags/English/">English</a></li>
+    
+    </ul>
+  </aside>
+</header>
+
+  <div><h2 id="数量限定词"><a href="#数量限定词" class="headerlink" title="数量限定词"></a>数量限定词</h2><ul>
+<li>a few/little 表肯定 相当于some</li>
+<li>few/little 表否定 几乎没有</li>
+</ul>
+<p>固定搭配：</p>
+<p>only a few/little</p>
+<p>very few/little</p>
+<h2 id="个体限定词"><a href="#个体限定词" class="headerlink" title="个体限定词"></a>个体限定词</h2><p>either/neither</p>
+<ul>
+<li>与单数可数名词连用<ul>
+<li>Either day is OK. </li>
+</ul>
+</li>
+<li>作代词，<ul>
+<li>单独使用<ul>
+<li>Either if OK</li>
+</ul>
+</li>
+<li>接of短语,必须要有限定词（冠词，物主代词或指示代词）<ul>
+<li>Either of the answers is right.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>限定词和形容词的区别，限定词重要起泛指或特值，而形容词则是用来形容名词的性质特征</p>
+<p>限定词一般放在名词前面，一般不做表语</p>
+<h2 id="形容词"><a href="#形容词" class="headerlink" title="形容词"></a>形容词</h2><p>位置：名词前面或后面</p>
+<p>形容词短语作定语一般只能放在后面，充当后置定语</p>
+<blockquote>
+<p>写作丰富自己的句子</p>
+</blockquote>
+<ol>
+<li>the popular songs</li>
+<li>the songs popular in the 1970s</li>
+</ol>
+<p>这里讨论的形容词作定语的语序问题，对于读者在写作造句过程中应该有所启发，比如我们造出的句子可以不再是表意单一的、形容前置修饰的这样的简单句子，而可以是表意更加丰富的、形容词短语后置修饰的<br>复杂句子，而且这样还能是得你的句式结构灵活多变，这就需要能够善于构造形容词短语。</p>
+<p>形容词短语的构成主要可以有两类</p>
+<ul>
+<li><p>多个形容词并列</p>
+<ul>
+<li>He bought a set of furniture, <strong>simple and beautiful</strong>.</li>
+</ul>
+</li>
+<li><p>“形容词＋补足语”构成的形容词短语</p>
+<ul>
+<li><p>形容词+介词短语 或者 非谓语动词短语 作补足语。</p>
+<ul>
+<li><p>形容词＋介词短语”</p>
+<ul>
+<li>a jackct similar to yours<br>一件与你的(夹克)类似的夹克</li>
+<li>A campaign on the harst terain of a nation as larse as California could be longer and more difiicult than some<br>predict<br>这里的形容词短语as large as Califomia后置修饰 nation。其中第一个as 是副词，修饰large;第二个as是介词，因此as Califoria 是介<br>词短语。<br>在一个和加利福尼亚州一样大的克满险忍地形的国家进行战争，意味着战争的时间可能比預想的要长，固难可能要更大。</li>
+</ul>
+</li>
+<li><p>形容词＋不定式短</p>
+<ul>
+<li>parents eager to support their children’s efforts 非常乐意支持孩子的父母们</li>
+</ul>
+</li>
+<li><p>形容词＋动名词短语</p>
+<ul>
+<li>a waitcr busy sering the guests 忙于服务客人的服务生</li>
+</ul>
+</li>
+<li><p>形容词+that从句</p>
+<ul>
+<li><p>If a diamond is heated without oxygen, it will turn to graphite, a form of carbon so soft that it is used as a<br>lubricant.金刚石在无氧的条件下加热，就会交成石墨。石墨是破的一种形式，它极软，可以作为润滑剂。</p>
+</li>
+<li><p>这是 1997年12月份的一道TOEFL 考试语法题。这里的形容词短语 so sof that it is used as a lubricant 是由形容词soft后接that 从句相成。这里的so..that 是一个表示结果的国定搭配。该形容词短语后量修饰名词 carbon，然后整个名词短语 a form of carbon so sof that it is used as a lubricant 作 graphite 的同位语，是对graphite 作进一步解释说明。</p>
+<p>构成形容词短语的中心形容词与其补足语(如介词短语)都是紧格地连在一起的。但有时侯两者之间也可能会插人其他成分，因而造成形容词与其补足语被分隔。这种形容词短语被分隔的情况往往会增加句子理解的难度，因为读者很可能看不到形容词与其补足语遥相呼应的语义联系。我们来看下面这道</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>考研真題：</p>
+<p>Vitamins are organic compounds <strong>necessary</strong> <strong>in</strong> small amounts in the diet **for **the normal growth and maintenance of life of animals,including man.<br>妙语点睛 这是1996 年的考研完形填空题。我们看到，这里有一个形容调nccessary，它置于名词compounds 的后面了。由此我们可以判新，这里的necessary 不应该是一个孤立的形容词(否则<br>就要首置修饰 compounds 了)，因而应该与其后面的某个成分构成形容词短语。所以要后量修饰名词 compounds。</p>
+</div>
+</article>
+
+  </main>
+  <aside>
+    <p>This is an `aside`, a useful place to put information of any kind: metadata about the site author (with or without pictures), brief information about the purposes of the site, a static collection of external links or anything else.</p>
+<p>For some Classless themes pictures and data about the author may suit better in the `cover` and `description` site attributes (see `config.toml`), but most of the times that kind of information will fit here better.</p>
+
+  </aside>
+  <footer role="contentinfo">
+    <p>A default site footer. If you don't know what to place here maybe you should just write your name plus the current year?</p>
+<p>If you want to have a sitemap, a contact form or other complex stuff, most Classless themes will also handle it nicely. Or you can take a look at the <code>aside.html</code> partial.</p>
+
+  </footer>
+</body>
